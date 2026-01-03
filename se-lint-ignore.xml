@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-29.xhtml">
+		<ignore>
+			<code>t-076</code>
+			<reason>Not grapheme/phoneme, but dialect.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-32.xhtml">
+		<ignore>
+			<code>t-076</code>
+			<reason>Not grapheme/phoneme, but dialect.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-45.xhtml">
+		<ignore>
+			<code>t-076</code>
+			<reason>Not grapheme/phoneme, but dialect.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
