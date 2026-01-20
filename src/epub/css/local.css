@@ -56,6 +56,10 @@ p[epub|type~="z3998:signature"]{
 }
 /* end letters */
 
+.telegram{
+	font-variant: all-small-caps;
+}
+
 /* Begin all Verse */
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
