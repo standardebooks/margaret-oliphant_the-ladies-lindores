@@ -48,9 +48,12 @@
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">The lives of three families of the Scottish gentry are intertwined through love and conflict.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The accession of Robert Lindores to his family’s title was unexpected. He was the third son, but successive deaths of his father’s sons from multiple marriages died, making Robert an earl. Until then, he had led a frugal life, living cheaply with his family—his commoner wife, their son and two daughters—on the Continent. With their ennoblement, they return to their Scottish estate to enjoy their new status in life. But the unexpected elevation does no favors to the new Earl of Lindores, bringing to the surface a deeply ambitious nature that had been obscured by relative poverty. He forces an incompatible marriage on his elder daughter, seeking an alliance with the boorish but fabulously wealthy local magnate; he attempts to coerce his younger daughter similarly.&lt;/p&gt;
+			&lt;p&gt;Thus it is that the lives of the Lindores become entangled not only with their wealthy neighbor, but also that of the recently arrived local squire, John Erskine of Dalruzian, whom they had met during their Continental sojourn. Erskine, though born and early raised in Scotland, has lived most of his life in England as a result of his widowed mother’s remarriage. Consequently, he too is feeling his way in the landscape, much as his old friends (as he thinks of them) the Lindores are too.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Ladies Lindores&lt;/i&gt; appeared in what was, even for the prodigiously energetic &lt;a href="https://standardebooks.org/ebooks/margaret-oliphant"&gt;Margaret Oliphant&lt;/a&gt;, a time of extreme productivity. Even so, some contemporary reviewers welcomed it warmly: “one of the very best that has been written for many years,” enthused the notice in &lt;i&gt;Peterson’s Magazine&lt;/i&gt;. Oliphant’s handling of Scottish speech and manners, and the dark depiction of a failed marriage drew especial praise.&lt;/p&gt;
+			&lt;p&gt;Although, like much of Oliphant’s work, it has passed into relative obscurity, Oliphant’s latest biographer and editor, Elisabeth Jay, includes it as one of her finest novels.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/47591</dc:source>
@@ -59,7 +62,6 @@
 		<dc:source>https://archive.org/details/ladieslindores01olip</dc:source>
 		<dc:source>https://archive.org/details/ladieslindores02olip</dc:source>
 		<dc:source>https://archive.org/details/ladieslindores03olip</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/margaret-oliphant_the-ladies-lindores</meta>
@@ -69,10 +71,10 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50048460</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">John Singer Sargent</dc:contributor>
+		<meta property="file-as" refines="#artist">Sargent, John Singer</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Singer_Sargent</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50019335</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Delphine Lettau</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lettau, Delphine</meta>
