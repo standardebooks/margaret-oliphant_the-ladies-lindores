@@ -2,16 +2,19 @@
 <se-lint-ignore>
 	<file path="chapter-29.xhtml">
 		<ignore code="t-076">
+			<line>12</line>
 			<reason>Not grapheme/phoneme, but dialect.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-32.xhtml">
 		<ignore code="t-076">
+			<line>47</line>
 			<reason>Not grapheme/phoneme, but dialect.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-45.xhtml">
 		<ignore code="t-076">
+			<line>50</line>
 			<reason>Not grapheme/phoneme, but dialect.</reason>
 		</ignore>
 	</file>
