@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/margaret-oliphant/the-ladies-lindores</dc:identifier>
 		<dc:date>2026-01-23T16:45:45Z</dc:date>
 		<meta property="dcterms:modified">2026-01-23T16:45:45Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -47,7 +48,7 @@
 		<meta property="term" refines="#subject-5">sh2008103507</meta>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">The lives of three families of the Scottish gentry intertwine through love and conflict.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Robert Lindores accedes to his family’s title unexpectedly when the older sons from his father’s multiple marriages die in quick succession, making him an earl. Until then, he had led a frugal life, living cheaply with his family—his commoner wife, their son, and two daughters—on the Continent. With their ennoblement, they return to their Scottish estate to enjoy their new status; but the unexpected elevation does no favors to the new Earl of Lindores, bringing to the surface a deeply ambitious nature that had been obscured by his relative poverty. He forces an incompatible marriage on his elder daughter, seeking an alliance with the boorish but fabulously wealthy local magnate, and he attempts to coerce his younger daughter similarly.&lt;/p&gt;
@@ -62,19 +63,21 @@
 		<dc:source>https://archive.org/details/ladieslindores01olip</dc:source>
 		<dc:source>https://archive.org/details/ladieslindores02olip</dc:source>
 		<dc:source>https://archive.org/details/ladieslindores03olip</dc:source>
-		<meta property="se:word-count">219324</meta>
-		<meta property="se:reading-ease.flesch">69.92</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/margaret-oliphant_the-ladies-lindores</meta>
+		<meta property="schema:wordCount">219324</meta>
+		<meta property="schema:educationalLevel">69.92</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/margaret-oliphant_the-ladies-lindores" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Margaret Oliphant</dc:creator>
 		<meta property="file-as" refines="#author">Oliphant, Margaret</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Margaret_Oliphant</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50048460</meta>
+		<link href="https://en.wikipedia.org/wiki/Margaret_Oliphant" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50048460.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">John Singer Sargent</dc:contributor>
 		<meta property="file-as" refines="#artist">Sargent, John Singer</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Singer_Sargent</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50019335</meta>
+		<link href="https://en.wikipedia.org/wiki/John_Singer_Sargent" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50019335.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Delphine Lettau</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lettau, Delphine</meta>
@@ -84,11 +87,11 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders Canada</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders Canada</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdpcanada.net/</meta>
+		<link href="https://www.pgdpcanada.net/" refines="#transcriber-3" rel="schema:url"/>
 		<dc:contributor id="producer-1">David Reimer</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Reimer, David</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://github.com/dajare</meta>
-		<meta property="se:url.authority.nacoaf" refines="#producer-1">http://id.loc.gov/authorities/names/n92075987</meta>
+		<link href="https://github.com/dajare" refines="#producer-1" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/n92075987.html" refines="#producer-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -97,7 +100,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.robinwhittleton.com/</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
