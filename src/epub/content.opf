@@ -49,7 +49,7 @@
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>The lives of three families of the Scottish gentry intertwine through love and conflict.</dc:abstract>
+		<meta property="schema:abstract">The lives of three families of the Scottish gentry intertwine through love and conflict.</meta>
 		<dc:description>
 			&lt;p&gt;Robert Lindores accedes to his family’s title unexpectedly when the older sons from his father’s multiple marriages die in quick succession, making him an earl. Until then, he had led a frugal life, living cheaply with his family—his commoner wife, their son, and two daughters—on the Continent. With their ennoblement, they return to their Scottish estate to enjoy their new status; but the unexpected elevation does no favors to the new Earl of Lindores, bringing to the surface a deeply ambitious nature that had been obscured by his relative poverty. He forces an incompatible marriage on his elder daughter, seeking an alliance with the boorish but fabulously wealthy local magnate, and he attempts to coerce his younger daughter similarly.&lt;/p&gt;
 			&lt;p&gt;Thus it is that the lives of the Lindores become entangled not only with their wealthy neighbor, but also with that of the recently arrived local squire, John Erskine of Dalruzian, whom they had met during their Continental sojourn. Erskine, though born and raised in Scotland, has lived most of his life in England as a result of his widowed mother’s remarriage. Consequently, he too is feeling his way in the landscape, much as his old friends (as he thinks of them) the Lindores are too.&lt;/p&gt;
